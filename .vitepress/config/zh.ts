@@ -12,8 +12,9 @@ export const zh = defineConfig({
     nav: [
       { text: '首页', link: '/zh/' },
       { text: '定义', link: '/zh/schema' },
+      { text: '组件库', link: '/zh/components' },
       { text: '生成器', link: '/zh/builder' },
-      { text: '验证器', link: '/zh/validator' }
+      { text: '调试器', link: '/zh/debug' }
     ],
 
     editLink: {
@@ -29,6 +30,12 @@ export const zh = defineConfig({
         items: [
           { text: '策略', link: '/zh/concepts' },
           { text: '表达式', link: '/zh/concepts' },
+        ]
+      },
+      {
+        text: '调试',
+        items: [
+          { text: '报告', link: '/zh/report' },
         ]
       },
       {
