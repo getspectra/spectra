@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "Spectra"
-  text: "A declarative domain-specific language for permission management"
-  tagline: "Let developers implement cross-platform permission control through simple integration"
+  text: "一种用于权限管理的声明式领域特定语言"
+  tagline: "让开发者可以通过简单的集成，即可实现跨平台的权限控制"
   actions:
     - theme: brand
-      text: Getting Started
+      text: 快速开始
       link: /zh/getting-started
     - theme: alt
-      text: Languages & SDK
+      text: 语言 & SDK
       link: /zh/intergration
 
 features:
