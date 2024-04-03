@@ -4,7 +4,7 @@ export const shared = defineConfig({
   title: 'Spectra',
 
   lastUpdated: true,
-  cleanUrls: true,
+  cleanUrls: false,
   metaChunk: true,
 
   sitemap: {
