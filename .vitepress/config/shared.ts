@@ -7,10 +7,6 @@ export const shared = defineConfig({
   cleanUrls: true,
   metaChunk: true,
 
-  markdown: {
-    math: true,
-  },
-
   sitemap: {
     hostname: 'https://getspectra.vercel.app',
     transformItems(items) {
