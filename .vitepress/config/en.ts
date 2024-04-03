@@ -11,7 +11,9 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Schema', link: '/schema' }
+      { text: 'Schema', link: '/schema' },
+      { text: 'Builder', link: '/builder' },
+      { text: 'Validator', link: '/validator' }
     ],
 
     editLink: {

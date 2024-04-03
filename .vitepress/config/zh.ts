@@ -11,7 +11,9 @@ export const zh = defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/zh/' },
-      { text: '定义', link: '/zh/schema' }
+      { text: '定义', link: '/zh/schema' },
+      { text: '生成器', link: '/zh/builder' },
+      { text: '验证器', link: '/zh/validator' }
     ],
 
     editLink: {
