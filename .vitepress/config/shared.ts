@@ -9,14 +9,6 @@ export const shared = defineConfig({
 
   markdown: {
     math: true,
-    codeTransformers: [
-      // We use `[!!code` in demo to prevent transformation, here we revert it back.
-      {
-        postprocess(code) {
-          return code.replace(/\[\!\!code/g, '[!code')
-        }
-      }
-    ]
   },
 
   sitemap: {

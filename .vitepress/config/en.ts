@@ -40,5 +40,10 @@ export const en = defineConfig({
         ]
       }
     ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present Spectra Team'
+    }
   }
 })

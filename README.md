@@ -1,1 +1,3 @@
-# docs
+# Spectra
+
+<https://getspectra.vercel.app>
